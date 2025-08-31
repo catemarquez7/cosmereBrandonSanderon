@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.letra {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.subtitulo {
+    font-weight: bolder;
+}
+
+.azul {
+    background-color: #202043 !important;
+}
+
+
+.azulboton {
+    background-color: #323279 !important;
+}
+
+.link {
+    text-decoration: none !important;
+    color: black;
+    font-size: 13px;
+}
+
+
+.blanquito {
+    background-color: #efeff2 !important;
+}
+
+
+.blanco {
+    background-color: #ffffff !important;
+}
+
+.marco {
+    border: 1px solid #202043;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.mar {
+    margin: 20px;
+}
+
+
+.letrablanca {
+    color: #efeff2;
+}
+
+.letranegra {
+    color: #000000;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.pad {
+    padding: 0.5%;
+}
+
+.padding {
+    padding: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.padding1 {
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+.margin {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+ul.menu {
+    list-style: none;
+    padding: 1rem;
+    margin: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulario {
+    background-color: #efeff2;
+    padding: 20px;
+    margin: 30px auto;
+    width: 50%;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.formulario1 {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 30px auto;
+    width: 50%;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.formulario1 input,
+.formulario1 textarea,
+.formulario1 button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #202043;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #202043;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.parrafo {
+    padding: 20px;
+    margin: 30px auto;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #2d2d4b;
+}
+
+
+.borde {
+    border-radius: 10px !important;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.card-post img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+form select,
+form textarea,
+input[type="file"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.lista {
+    list-style: none !important;
+}
+
+.sidebar {
+    width: 50px;
+    background-color: #202043;
+    color: white;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    min-height: 100%;
+    height: auto;
+}
+
+
+.sidebar:hover {
+    width: 200px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    white-space: nowrap;
+}
+
+.sidebar i {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    width: 25px;
+    text-align: center;
+}
+
+.sidebar .label {
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.sidebar:hover .label {
+    opacity: 1;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+
+.user-card {
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+}
+
+.user-card-body {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    min-height: 130px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.user-info {
+    flex-grow: 1;
+}
+
+.user-name {
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #000000;
+    margin: 3px;
+
+}
+
+.user-info {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin: 0;
+    line-height: 1.2;
+    margin: 3px;
+
+}
+
+.user-btn {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.75rem;
+}
