@@ -1,4 +1,4 @@
-# 📝 Web Cosmere - Brandon Sanderson
+# 🪐 Web Cosmere - Brandon Sanderson
 
 Esta página web está inspirada en el Cosmere, universo literario de Brandon Sanderson, quien es mi autor preferido. Fue desarrollado en mi segundo cuatrimestre, para la materia Programación Web II.
 
